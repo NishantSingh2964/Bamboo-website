@@ -1,6 +1,9 @@
 {
   "name": "bamboo",
   "version": "0.1.0",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "unrs-resolver", "sharp"]
+  },
   "private": true,
   "scripts": {
     "dev": "next dev",
